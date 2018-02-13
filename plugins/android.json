@@ -15,6 +15,9 @@
     },
     "cordova-plugin-statusbar": {
       "PACKAGE_NAME": "org.caioverine.garconapp"
+    },
+    "phonegap-plugin-barcodescanner": {
+      "PACKAGE_NAME": "org.caioverine.garconapp"
     }
   },
   "dependent_plugins": {}
