@@ -12,6 +12,9 @@
     },
     "cordova-plugin-splashscreen": {
       "PACKAGE_NAME": "org.caioverine.garconapp"
+    },
+    "cordova-plugin-statusbar": {
+      "PACKAGE_NAME": "org.caioverine.garconapp"
     }
   },
   "dependent_plugins": {}
