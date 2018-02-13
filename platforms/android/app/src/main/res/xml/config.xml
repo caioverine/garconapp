@@ -22,6 +22,7 @@
     <author email="viniciuscaio.17@gmail.com" href="http://cordova.io">
         Caio Vinícius
     </author>
+    <access origin="http://cozinhapp.sergiolopes.org" />
     <icon src="resources\android\icon\drawable-xhdpi-icon.png" />
     <icon density="ldpi" src="resources\android\icon\drawable-ldpi-icon.png" />
     <icon density="mdpi" src="resources\android\icon\drawable-mdpi-icon.png" />

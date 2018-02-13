@@ -4,12 +4,12 @@
         "source": "C:\\Users\\MariaLina\\.gradle\\caches\\transforms-1\\files-1.1\\barcodescanner-release-2.1.5.aar\\d836a6427876e4963b2c67a0d0c2b6a8\\res\\drawable\\launcher_icon.png"
     },
     {
-        "merged": "C:\\Desenv\\Cursos\\Cordova e PhoneGap\\garconapp\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-ldpi_screen.png.flat",
-        "source": "C:\\Desenv\\Cursos\\Cordova e PhoneGap\\garconapp\\platforms\\android\\app\\src\\main\\res\\drawable-port-ldpi\\screen.png"
-    },
-    {
         "merged": "C:\\Desenv\\Cursos\\Cordova e PhoneGap\\garconapp\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_media.xml.flat",
         "source": "C:\\Users\\MariaLina\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.0.2.aar\\e620399182da0c55bb48edf9b2f063f8\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "C:\\Desenv\\Cursos\\Cordova e PhoneGap\\garconapp\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-ldpi_screen.png.flat",
+        "source": "C:\\Desenv\\Cursos\\Cordova e PhoneGap\\garconapp\\platforms\\android\\app\\src\\main\\res\\drawable-port-ldpi\\screen.png"
     },
     {
         "merged": "C:\\Desenv\\Cursos\\Cordova e PhoneGap\\garconapp\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_search_book_contents.xml.flat",

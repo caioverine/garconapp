@@ -3,12 +3,17 @@ $('.collection')
         
         var $badge = $('.badge', this);
         var nomeProduto = this.firstChild.textContent;
+        var resumo = ''
 
         if($badge.length === 0){
 
             $badge = $('<span class="badge brown-text">0<span>')
                 .appendTo(this);
         }
+
+        resumo = $('#resumo').text() + '; ' + nomeProduto;
+
+        $('#resumo').text(resumo);
 
         Materialize.toast(nomeProduto + 'adicionado', 1000);
 
@@ -61,4 +66,27 @@ $('.scan-qrcode')
                 Materialize.toast('Erro: ' + error, 3000, 'red-text');
             }
         );
+    });
+
+$('.acao-finalizar')
+    .on('click', function () {
+       
+        $.ajax({
+            url: 'http://cozinhapp.sergiolopes.org/novo-pedido',
+            data: {
+                mesa: $('#numero-mesa').val(),
+                pedido: $('#resumo').text()
+            },
+            error: function (erro) {
+                
+                Materialize.toast(erro.responseText, 3000, 'red-text');
+            },
+            sucess: function (dados) {
+                
+                Materialize.toast(dados, 2000);
+
+                $('#numero-mesa').val('');
+                $('.badge').remove();
+            }
+        })
     });
